@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class DemoApplication {
     private int xdclass;
-    private static final int TMF = 1;
+    private static final int TMF = 2;
 
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
