@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DemoApplication {
     private int xdclass;
     private static final int TMF = 3;
-    private String version = v2;
+    private String version = "v2";
 
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
